@@ -1,0 +1,75 @@
+.login-wrapper{
+    background: linear-gradient(rgba(1, 103, 255, 0.87) ,rgba(1, 103, 255, 0.87)) ,url(../../img/Register/register.png);
+    background-color: #0c5adb;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 50px;
+}
+.login{
+    color: white;
+    max-width: 1140px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 100px 20px;
+}
+.login>h1{
+    font-size: 2.4rem;
+    color: #fefefe;
+    font-weight: 700;
+}
+
+.Already{
+    background: linear-gradient(rgba(1, 103, 255, 0.87) ,rgba(1, 103, 255, 0.87)) ,url(../../img/Register/register.png);
+    background-color: #0c5adb;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+}
+.Already>div{
+    display: flex;
+    color: white;
+    max-width: 1140px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 100px 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.Already>div>h1{
+    font-size: 2.4rem;
+    color: #fefefe;
+    font-weight: 700;
+    width: 30%;
+    line-height: 1.2;
+
+}
+.Already>div>button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #10707f;
+    font-size: 15px;
+    font-weight: 300;
+    box-shadow: 0 10px 10px 0 rgb(0 0 0 / 12%);
+    height: 55px;
+    line-height: 55px;
+    border-radius: 3px;
+    padding: 0 51px;
+    border: none;
+    transition: .3s linear;
+}
+.Already>div>button:hover{
+    cursor: pointer;
+    background-color: #001d4c;
+    color: white;
+}
